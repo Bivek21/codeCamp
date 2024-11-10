@@ -8,8 +8,19 @@
 // let myDogAge = myAge * humanDogRatio;
 // console.log(myDogAge);
 
-let count = 5;
-//count +1
-count = count + 1;
-count = count - 2;
-console.log(count);
+// let count = 5;
+// //count +1
+// count = count + 1;
+// count = count - 2;
+// console.log(count);
+
+// let bonusPoint = 50;
+// bonusPoint = bonusPoint + 50;
+// console.log(bonusPoint);
+// bonusPoint = bonusPoint - 75;
+// console.log(bonusPoint);
+// bonusPoint = bonusPoint + 50;
+// console.log(bonusPoint);
+function increment() {
+  console.log("The button was clicked");
+}
