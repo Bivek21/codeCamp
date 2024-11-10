@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(188, 177, 177);
+}
+ h2{
+    background-color: rgb(146, 149, 148);
+ }
+
+ .increment-btn{
+    background-color: red;
+    margin: auto;
+    padding: 2%;
+
+ }
+ save-btn{
+    background-color: yellow;
+    margin: auto;
+    padding: 2%;
+    width: fit-content;
+     
+ }

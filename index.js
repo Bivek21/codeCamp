@@ -89,8 +89,26 @@
 // let bonusPoint = "20";
 // let totalPoints = point + bonusPoint;
 // console.log(totalPoints);
-let welcomeEl = document.getElementById("welcome-el");
-let name = " Bivek";
-let greeting = "welcome back";
+// let welcomeEl = document.getElementById("welcome-el");
+// let name = " Bivek";
+// let greeting = "welcome back";
 
-welcomeEl.innerText = greeting + name;
+// welcomeEl.innerText = greeting + name;
+// //add emoji in the end
+// welcomeEl.innerHTML = greeting + name + "💫";
+
+//write  your code below here
+
+// Hint: count=Count+1\
+let saveEl = document.getElementById("save-el");
+let countEl = document.getElementById("count-el");
+let count = 0;
+function increment() {
+  count += 1;
+  countEl.innerText = count;
+}
+
+function save() {
+  let countStr = count + " - ";
+  saveEl.textContent += countStr;
+}
